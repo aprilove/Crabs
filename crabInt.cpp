@@ -23,31 +23,45 @@ void quit(bool error) {
 bool instruction(char input) {
 	switch (input) {
 		case '<':
-			/* code */
+			if (p_memory == memory.begin())
+				quit(true);
+			else
+				--p_memory;
 			break;
 		case '>':
-			/* code */
+			if (p_memory == memory.end())
+				quit(true);
+			else
+				++p_memory;
 			break;
 		case '+':
-			/* code */
+			++(*p_memory);
 			break;
 		case '-':
-			/* code */
+			--(*p_memory);
 			break;
 		case '0':
-			/* code */
+			*p_memory = 0;
+			break;
+		case 'r':
+			*p_memory = INT32_MAX;
 			break;
 		case 'o':
-			/* code */
+			std::cout << *p_memory << "\n";
 			break;
 		case 'i':
-			/* code */
+			std::cin >> *p_memory;
 			break;
 		case 'c':
-			/* code */
+			if (*p_memory == 0) {
+				// code
+			}
 			break;
 		case 'b':
-			/* code */
+			if (p_program == program.begin())
+				quit(true);
+
+			--p_program;
 			break;
 		default:
 			quit(false);
@@ -61,7 +75,7 @@ bool instruction(char input) {
 int main(int argc, char** argv) {
 	FILE* f = fopen(argv[1], "rb");
 	if (f == NULL) {
-		std::cout << "Cannot open \n";
+		std::cout << "Cannot open\n";
 		exit(1);
 	}
 
