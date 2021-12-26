@@ -11,6 +11,7 @@ A language similar to BF but is designed to help those understand how a Turing m
 | `0`  | Sets current memory block to 0	|
 | `r`  | Sets current memory block to 0x7FFFFFFF	|
 | `o`  | Outputs the memory block 		|
+| `s`  | Swaps memory block with next memory block 		|
 | `i`  | Accepts 4 bytes and stores it in the current memory block|
 | `c`  | If current memory block is 0, skip to next `b`. If memory block is 0, continue with execution |
-| `b`  | searches code above the instruction immediately above for a `cr` and jumps to it |
+| `b`  | searches code above the instruction immediately above for a `c` and jumps to it |
