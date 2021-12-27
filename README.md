@@ -1,5 +1,9 @@
 # Crabs
-A language similar to BF but is designed to help those understand how a Turing machine works.
+A language designed to help those understand how a Turing machine works with many ideas borrowed from BF.
+
+[x] Finish interpreter
+[ ] Finish compiler
+[ ] Add QOL characters
 
 ## Language design
 | Char | Meaning						|
