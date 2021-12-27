@@ -1,9 +1,9 @@
 # Crabs
 A language designed to help those understand how a Turing machine works with many ideas borrowed from BF.
 
-[x] Finish interpreter
-[ ] Finish compiler
-[ ] Add QOL characters
+- [x] Finish interpreter
+- [ ] Finish compiler
+- [ ] Add QOL characters
 
 ## Language design
 | Char | Meaning						|
