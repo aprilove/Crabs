@@ -25,4 +25,4 @@ A language designed to help those understand how a Turing machine works with man
 `c->+<b`
 
 ### Hello World
-`++++++++c>++++c>++>+++>+++>+<<<<-b>+>+>->>+c<b<-b>>.>---.+++++++..+++.>>.<-.<.+++.------.--------.>>+.>++.`
+`++++++++c>++++c>++>+++>+++>+<<<<-b>+>+>->>+c<b<-b>>o>---o+++++++oo+++o>>o<-o<o+++o------o--------o>>+o>++o`
