@@ -19,3 +19,10 @@ A language designed to help those understand how a Turing machine works with man
 | `i`  | Accepts 4 bytes and stores it in the current memory block|
 | `c`  | If current memory block is 0, skip to next `b`. If memory block is 0, continue with execution |
 | `b`  | searches code above the instruction immediately above for a `c` and jumps to it |
+
+## Sample Code
+### Decrement and Increment 
+`c->+<b`
+
+### Hello World
+`++++++++c>++++c>++>+++>+++>+<<<<-b>+>+>->>+c<b<-b>>.>---.+++++++..+++.>>.<-.<.+++.------.--------.>>+.>++.`
